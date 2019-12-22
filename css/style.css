@@ -336,19 +336,21 @@ p {
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
           box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
   border-radius: 3px;
-  width: 300px;
-  padding: 2em;
+  width: 280px;
+  padding: 1em;
   margin: 1rem auto 1rem;
 }
 
 .testimonials__text {
-  font-size: 1.15rem;
+  font-size: 0.9rem;
   text-align: left;
   padding-bottom: 1em;
 }
 
 .testimonials__author-name {
   font-weight: 700;
+  padding-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 .testimonials__author-info {
@@ -377,6 +379,9 @@ p {
   .testimonials__img {
     height: 70px;
   }
+  .testimonials__text {
+    font-size: 1.15rem;
+  }
   .testimonials__author-info {
     font-size: 1rem;
   }
@@ -401,6 +406,7 @@ p {
   }
   .testimonials__item {
     width: 400px;
+    padding: 2em;
   }
 }
 

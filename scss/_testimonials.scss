@@ -3,11 +3,9 @@
   flex-wrap: wrap;
   flex-direction: column;
   margin-top: 10rem;
-
   &__item:nth-of-type(1) {
     position: relative;
   }
-
   &__mark {
     position: absolute;
     left: 5px;
@@ -27,38 +25,34 @@
     background-color: $bg-testimonials-color;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
     border-radius: 3px;
-    width: 300px;
-    padding: 2em;
+    width: 280px;
+    padding: 1em;
     margin: 1rem auto 1rem;
   }
-
   &__text {
-    font-size: 1.15rem;
+    font-size: 0.9rem;
     text-align: left;
-    padding-bottom: 1em;
+    padding-bottom: 1em;    
   }
-
   &__author-name {
     font-weight: 700;
+    padding-top: 0.5em;
+    margin-bottom: 0.5em;
   }
-
   &__author-info {
     font-size: 0.85rem;
   }
-
   &__author-name,
   &__author-info {
     text-align: left;
     margin-left: 4rem;
     line-height: 1;
   }
-
   &__img {
     height: 50px;
     border-radius: 50%;
     float: left;
   }
-
   &__img::after {
     content: "";
     clear: both;
@@ -69,11 +63,12 @@
     &__img {
       height: 70px;
     }
-
+    &__text{
+      font-size: 1.15rem;
+    }
     &__author-info {
       font-size: 1rem;
     }
-
     &__author-name,
     &__author-info {
       margin-left: 5rem;
@@ -94,6 +89,7 @@
 
     &__item {
       width: 400px;
+      padding: 2em;
     }
   }
 }
