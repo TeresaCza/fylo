@@ -68,6 +68,7 @@ p {
 }
 
 .header__menu {
+  padding-top: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -157,6 +158,7 @@ p {
 }
 
 .header__image {
+  margin-top: 2rem;
   -webkit-box-ordinal-group: 0;
       -ms-flex-order: -1;
           order: -1;
