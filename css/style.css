@@ -52,15 +52,6 @@ p {
   font-size: 1.2rem;
 }
 
-@media (min-width: 800px) {
-  p {
-    font-size: 1.3rem;
-  }
-  .sheading {
-    font-size: 2rem;
-  }
-}
-
 .header {
   background-color: #1c2431;
   position: relative;
@@ -68,7 +59,7 @@ p {
 }
 
 .header__menu {
-  padding-top: 2rem;
+  padding-top: 2.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -80,7 +71,7 @@ p {
 .header__logo {
   width: auto;
   height: 25px;
-  margin: 2rem 1rem 1rem;
+  margin: 2rem 0 1rem 3rem;
 }
 
 .header__list {
@@ -89,6 +80,7 @@ p {
   display: -ms-flexbox;
   display: flex;
   margin-top: 1rem;
+  margin-right: 2rem;
 }
 
 .header__item {
@@ -109,7 +101,7 @@ p {
     height: auto;
   }
   .header__link {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 }
 
@@ -215,7 +207,8 @@ p {
 }
 
 @supports (display: grid) {
-  .page__features, .page__feature-end {
+  .page__features,
+  .page__feature-end {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (minmax(500px, 1fr))[auto-fill];
@@ -223,7 +216,8 @@ p {
     grid-gap: 50px;
   }
   @media (max-width: 800px) {
-    .page__features, .page__feature-end {
+    .page__features,
+    .page__feature-end {
       -ms-grid-columns: 1fr;
           grid-template-columns: 1fr;
     }
@@ -301,6 +295,14 @@ p {
   padding-left: 0;
 }
 
+@media (min-width: 800px) {
+  .page__feature-end .feature .feature__heading {
+    font-size: 2.6rem;
+    text-align: left;
+    width: 80%;
+  }
+}
+
 .testimonials {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -344,7 +346,7 @@ p {
 }
 
 .testimonials__text {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   text-align: left;
   padding-bottom: 1em;
 }
@@ -356,7 +358,7 @@ p {
 }
 
 .testimonials__author-info {
-  font-size: 0.85rem;
+  font-size: 0.7rem;
 }
 
 .testimonials__author-name, .testimonials__author-info {
@@ -366,7 +368,7 @@ p {
 }
 
 .testimonials__img {
-  height: 50px;
+  height: 30px;
   border-radius: 50%;
   float: left;
 }
@@ -379,13 +381,13 @@ p {
 
 @media (min-width: 800px) {
   .testimonials__img {
-    height: 70px;
+    height: 50px;
   }
   .testimonials__text {
-    font-size: 1.15rem;
+    font-size: 0.9rem;
   }
   .testimonials__author-info {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   .testimonials__author-name, .testimonials__author-info {
     margin-left: 5rem;
@@ -408,7 +410,7 @@ p {
   }
   .testimonials__item {
     width: 400px;
-    padding: 2em;
+    padding: 1.5em;
   }
 }
 
@@ -443,6 +445,9 @@ p {
 }
 
 @media (min-width: 800px) {
+  .form__heading {
+    font-size: 2.2rem;
+  }
   .form__input {
     display: inline-block;
     width: 45%;
@@ -529,6 +534,8 @@ p {
 
 .footer__sicon {
   margin: 8px;
+  height: 24px;
+  width: auto;
 }
 
 @media (min-width: 800px) {
