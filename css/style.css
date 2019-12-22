@@ -8,6 +8,7 @@
 
 .image {
   max-width: 100%;
+  padding: 0 30px;
 }
 
 .btn {
@@ -283,7 +284,6 @@ p {
 
 .page__image {
   margin: 50px auto 0;
-  padding: 0 30px;
 }
 
 .page__feature-end .feature {
@@ -309,7 +309,7 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-top: 8rem;
+  margin-top: 10rem;
 }
 
 .testimonials__item:nth-of-type(1) {
@@ -397,7 +397,7 @@ p {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    margin: 8rem 3rem 0;
+    margin: 10rem 3rem 0;
   }
   .testimonials__item {
     width: 400px;
@@ -412,10 +412,10 @@ p {
   width: 85%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 8rem;
+  margin-top: -3rem;
   padding: 2rem;
   position: relative;
-  top: 125px;
+  top: 200px;
 }
 
 .form__input {
@@ -448,6 +448,8 @@ p {
 @media (min-width: 800px) {
   .form {
     width: 75%;
+    top: 125px;
+    margin-top: 2rem;
   }
 }
 
