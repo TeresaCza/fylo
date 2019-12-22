@@ -1,0 +1,115 @@
+.header {
+  background-color: $bg-intro-color;
+  position: relative;
+  text-align: center;
+  
+  &__menu {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    width: auto;
+    height: 25px;
+    margin: 2rem 1rem 1rem;
+  }
+  &__list {
+    list-style-type: none;
+    display: flex; 
+    margin-top: 1rem;   
+  }
+  
+  &__item {
+    padding: 1rem;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9rem;
+    position: relative;
+    z-index: 3;
+  }
+
+  @media (min-width: 800px) {
+    &__logo {
+      height: auto;
+    }
+    &__link {
+      font-size: 1rem;           
+    }
+  }
+  
+  &__intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+  &__heading, &__text, &__btn {
+    position: relative;
+    z-index: 2;
+    top: 230px;
+  }
+  @media (min-width: 800px){
+    &__heading, &__text, &__btn{
+    top: -220px;
+    }
+    
+  }
+  &__heading {
+    margin: 0 1rem 2rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;    
+  }
+  @media (min-width: 800px){
+    &__heading {
+      font-size: 3rem;      
+    }
+    &__heading, &__text {
+      width: 650px;      
+    }
+
+  }
+
+  &__image {
+    order: -1;
+    position: relative;
+    z-index: 1;
+    padding: 10px;
+    margin-bottom: -200px;    
+  }
+
+  @media (min-width: 375px) {
+    &__image {
+      margin-bottom: -150px;
+    }
+  }
+  @media (min-width: 800px){
+    &__image {
+      margin-bottom: 0;
+      padding-bottom: 320px;
+    }    
+  }
+
+  &__btn {
+    width: 250px;
+  }
+
+  &::after {
+    content: url("../images/bg-curvy-mobile.svg");
+    display: block;    
+    position: absolute;
+    bottom: -4px; //possible bug here, unexplainable gap
+    left: 0;        
+  }
+
+  @media (min-width: 375px) {
+    &::after {
+      content: url("../images/bg-curvy-desktop.svg");
+    }
+  }  
+}
