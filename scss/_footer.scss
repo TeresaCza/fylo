@@ -1,10 +1,10 @@
 .footer {
   background-color: $bg-footer-color;
-  padding-top: 250px;
+  padding-top: 200px;
   text-align: left;
   &__logo {
     margin-bottom: 2rem;
-    margin-left: 30px;
+    margin-left: 50px;
   }
   &__item {
     display: flex;
@@ -12,7 +12,7 @@
     padding: 15px 30px;
   }
   &__icon {
-    width: 20px;
+    width: 13px;
     flex-shrink: 0;    
   }
   &__text {    
@@ -50,15 +50,18 @@
     font-size: 1rem;
   }
 }
+@media (max-width: 920px) {
+  padding-top: 300px
+}
 @media (min-width: 950px) {
   &__wrapper {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    padding-bottom: 3rem;   
+    padding-bottom: 7rem;   
   }
   &__item:nth-of-type(1) {
-    width: 40%;
+    width: 30%;
   }
   &__list {
     margin: 0 5px;

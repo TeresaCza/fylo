@@ -66,7 +66,8 @@
     }
 
     &__link {
-      font-size: 1.3rem;
+      margin-top: 1em;
+      font-size: 1.2rem;
       line-height: 1;
     }
 
@@ -86,7 +87,7 @@
 .page__feature-end .feature {
   align-items: flex-start;
   width: 90%;
-  margin: auto auto;
+  margin: 12rem auto 0;
 }
 
 .page__feature-end .feature .feature__text {

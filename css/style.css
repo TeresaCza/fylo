@@ -276,7 +276,8 @@ p {
     width: auto;
   }
   .feature__link {
-    font-size: 1.3rem;
+    margin-top: 1em;
+    font-size: 1.2rem;
     line-height: 1;
   }
   .feature__icon-arrow {
@@ -297,7 +298,7 @@ p {
       -ms-flex-align: start;
           align-items: flex-start;
   width: 90%;
-  margin: auto auto;
+  margin: 12rem auto 0;
 }
 
 .page__feature-end .feature .feature__text {
@@ -359,6 +360,7 @@ p {
   font-size: 0.8rem;
   text-align: left;
   padding-bottom: 1em;
+  line-height: 1.8;
 }
 
 .testimonials__author-name {
@@ -416,7 +418,7 @@ p {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    margin: 10rem 3rem 0;
+    margin: 16rem 3rem 5rem;
   }
   .testimonials__item {
     width: 400px;
@@ -432,7 +434,7 @@ p {
   width: 85%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -3rem;
+  margin-top: 15rem;
   padding: 2rem;
   position: relative;
   top: 200px;
@@ -460,7 +462,7 @@ p {
   }
   .form__input {
     display: inline-block;
-    width: 45%;
+    width: 60%;
     margin-right: 1em;
   }
   .form__btn {
@@ -468,9 +470,18 @@ p {
   }
 }
 
+@media (max-width: 920px) {
+  .form__input {
+    width: 200px;
+  }
+  .form__btn {
+    width: 200px;
+  }
+}
+
 @media (min-width: 800px) {
   .form {
-    width: 75%;
+    width: 65%;
     top: 125px;
     margin-top: 2rem;
   }
@@ -478,13 +489,13 @@ p {
 
 .footer {
   background-color: #0b1523;
-  padding-top: 250px;
+  padding-top: 200px;
   text-align: left;
 }
 
 .footer__logo {
   margin-bottom: 2rem;
-  margin-left: 30px;
+  margin-left: 50px;
 }
 
 .footer__item {
@@ -498,7 +509,7 @@ p {
 }
 
 .footer__icon {
-  width: 20px;
+  width: 13px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
 }
@@ -554,6 +565,12 @@ p {
   }
 }
 
+@media (max-width: 920px) {
+  .footer {
+    padding-top: 300px;
+  }
+}
+
 @media (min-width: 950px) {
   .footer__wrapper {
     display: -webkit-box;
@@ -565,10 +582,10 @@ p {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    padding-bottom: 3rem;
+    padding-bottom: 7rem;
   }
   .footer__item:nth-of-type(1) {
-    width: 40%;
+    width: 30%;
   }
   .footer__list {
     margin: 0 5px;
