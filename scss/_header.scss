@@ -22,7 +22,7 @@
   }
   
   &__item {
-    padding: 1rem;
+    padding: 2rem;
   }
 
   &__link {
@@ -40,7 +40,7 @@
       margin-left: 3rem;
     }
     &__list {
-      margin-right: 5rem;
+      margin-right: 0.5rem;
     }
     &__link {
       font-size: 1.1rem;           
@@ -65,7 +65,7 @@
   }
   @media (min-width: 800px){
     &__heading, &__text, &__btn{
-    top: -280px;
+    top: -220px;
     }
     
   }
@@ -102,12 +102,12 @@
   @media (min-width: 800px){
     &__image {
       margin-bottom: 0;
-      padding-bottom: 320px;
+      padding-bottom: 260px;
     }    
   }
 
   &__btn {
-    width: 250px;
+    width: 275px;
   }
 
   &::after {
