@@ -12,11 +12,12 @@
     padding: 15px 30px;
   }
   &__icon {
-    width: 13px;
+    width: auto;
     flex-shrink: 0;    
   }
   &__text {    
     text-align: left;
+    margin-top: -5px;
   }
   &__list {
     list-style-type: none;

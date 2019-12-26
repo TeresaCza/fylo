@@ -521,13 +521,14 @@ p {
 }
 
 .footer__icon {
-  width: 13px;
+  width: auto;
   -ms-flex-negative: 0;
       flex-shrink: 0;
 }
 
 .footer__text {
   text-align: left;
+  margin-top: -5px;
 }
 
 .footer__list {
