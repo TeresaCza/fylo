@@ -87,7 +87,7 @@
 .page__feature-end .feature {
   align-items: flex-start;
   width: 90%;
-  margin: 12rem auto 0;
+  margin: 5rem auto 0;
 }
 
 .page__feature-end .feature .feature__text {
@@ -96,6 +96,9 @@
 }
 
 @media (min-width: 800px) {
+  .page__feature-end .feature {
+    margin-top: 12rem;
+  }
   .page__feature-end .feature .feature__heading {
     font-size: 2.6rem;
     text-align: left;

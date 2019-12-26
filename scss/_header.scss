@@ -12,13 +12,13 @@
   &__logo {
     width: auto;
     height: 25px;
-    margin: 2rem 0 1rem 3rem;
+    margin: 2rem 0 1rem 1rem;
   }
   &__list {
     list-style-type: none;
     display: flex; 
     margin-top: 1rem;
-    margin-right: 2rem;   
+    margin-right: 1rem;   
   }
   
   &__item {
@@ -37,6 +37,10 @@
   @media (min-width: 800px) {
     &__logo {
       height: auto;
+      margin-left: 3rem;
+    }
+    &__list {
+      margin-right: 2rem;
     }
     &__link {
       font-size: 1.1rem;           
