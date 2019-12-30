@@ -90,7 +90,8 @@ p {
 }
 
 .header__item {
-  padding: 2rem;
+  padding: 0.5rem;
+  padding-top: 1rem;
 }
 
 .header__link {
@@ -109,6 +110,9 @@ p {
   }
   .header__list {
     margin-right: 0.5rem;
+  }
+  .header__item {
+    padding: 2rem;
   }
   .header__link {
     font-size: 1.1rem;
